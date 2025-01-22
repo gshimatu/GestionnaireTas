@@ -17,3 +17,20 @@ Un Tas peut être tas min ou tas max
 
 Structure de mon code 👨‍💻
 
+Le programme utilise la bibliothèque standard heapq de Python pour gérer efficacement les tas min et max.
+
+1. Ménu principal
+   L'utilisateur peut choisir parmi trois options : ajouter une valeur, afficher les tas ou quitter le programme.
+   
+2. Ajout des valeurs
+   La valeur est ajoutée à la fois dans le tas min et le tas max.
+   Pour le tas max, les valeurs sont stockées en négatif pour inverser l'ordre naturel du tas min, ce qui simule un tas max.
+
+3. Affichage des tas
+   Le tas min est affiché tel quel
+   Le tas max est affiché avec les valeurs restaurées (multiplication par -1)
+
+4. Complétude de l'arbre
+  Les tas min et max sont représentés sous forme de liste dans heapq, qui garantit automatiquement une organisation conforme.
+
+By Gauthier Shimatu 👨‍💻
